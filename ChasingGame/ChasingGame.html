@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Script.js"></script>
+    <title>Chasing Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        #gameArea {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            border: 2px solid #333;
+            margin: 20px auto;
+        }
+        #target {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: red;
+            cursor: pointer;
+        }
+        #score {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chasing Game</h1>
+    <div id="gameArea">
+        <div id="target" onclick="scorePoint()"></div>
+    </div>
+    <p id="score">Score: <span id="currentScore">0</span></p>
+
+    <script>
+      
+    </script>
+</body>
+</html>
